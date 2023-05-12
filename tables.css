@@ -1,0 +1,46 @@
+body {
+ background-image:url("bgp.png");
+ background-position: center;
+ background-position: left;
+ background-repeat: no-repeat;
+ background-size: cover;
+ font-family: Serif;
+
+}
+.logo img{
+ height:150px;
+ width: 300px;
+ position: left;
+}
+
+table {
+  border-collapse: collapse;
+   font-family: sans-serif;
+   text-align: center;
+   vertical-align: middle;
+   width:85%;
+}
+nav{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 0px 70px 10px 250px;
+}
+th {
+  width: 25%;
+  background-color: #333;
+  color: white;
+  font-size: 0.875rem;
+  letter-spacing: 2%;
+  text-transform: uppercase;
+  border-radius: 10px; 
+}
+tr.rowwhite{
+  background-color: #FFFFFF;
+}
+tr.rowgrey{
+  background-color: #DCDCDD;
+}
+th , tr ,td {
+   padding: 15px;
+}

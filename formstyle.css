@@ -1,0 +1,102 @@
+body{
+font-family:'Raleway',sans-serif
+}
+div#first{
+width:350px;
+height:auto;
+margin:50px auto 0;
+padding:50px;
+background-color:#EEE;
+color:#333;
+border:2px solid #5734ca;
+border-radius:40px 0 40px 0
+}
+
+
+label{
+font-size:15px;
+font-weight:700
+}
+
+
+input#fname{
+
+margin-top:10px;
+margin-bottom:10px;
+padding-left:35px;
+width:310px;
+height:30px;
+font-size:14px;
+box-shadow:0 0 10px;
+border-radius:5px;
+-webkit-border-radius:5px;
+}
+input#email{
+margin-top:10px;
+margin-bottom:10px;
+padding-left:35px;
+width:310px;
+height:30px;
+font-size:14px;
+box-shadow:0 0 10px;
+border-radius:5px;
+-webkit-border-radius:5px;
+
+}
+
+input#sub{
+margin-top:10px;
+margin-bottom:10px;
+padding-left:35px;
+width:310px;
+height:30px;
+font-size:14px;
+box-shadow:0 0 10px;
+border-radius:5px;
+-webkit-border-radius:5px;}
+
+input#TName{
+margin-top:10px;
+margin-bottom:10px;
+padding-left:35px;
+width:310px;
+height:30px;
+font-size:14px;
+box-shadow:0 0 10px;
+border-radius:5px;
+-webkit-border-radius:5px;
+}
+
+
+input#CB{
+margin: 10px;
+font-size: 10px;
+width:25px;
+height:25px;
+
+}
+
+input,select{
+margin-top:10px;
+margin-bottom:10px;
+padding-left:35px;
+width:310px;
+height:30px;
+font-size:14px;
+box-shadow:0 0 10px;
+border-radius:5px;
+-webkit-border-radius:5px;
+}
+
+
+input#submit {
+background-color:#5734ca;
+padding:10px 25px;
+color:#FFFFFF;
+text-shadow:1px 1px 1px #949494;
+margin-left:25px
+}
+input#submit:hover{
+background-color:#FFFFFF
+}
+

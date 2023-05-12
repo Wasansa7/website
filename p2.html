@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form</title>
+
+<script type="text/javascript" src="formjs.js"></script>
+<link href="formstyle.css" rel="stylesheet">
+</head>
+<body onload="load();">
+
+    <form id="myForm" action="">
+<div id="first">
+
+<label>Full Name :</label>
+<input id="fname" placeholder="Full Name" type="text" >
+<label>Email :</label>
+<input id="email" placeholder="yourname@example.com" type="text">
+
+<label>Password:</label>
+<input id="iPassword" placeholder="Password" type="Password">
+
+
+<label>Verify Password:</label>
+<input id="sPassword" placeholder="Password" type="Password">
+
+
+<label>Teacher Name:</label>
+<input id="TName" placeholder="Teacher Name" type="text">
+
+<label>Subject :</label>
+<input id="sub"placeholder="Subject"  type="text">
+
+<label>Educational :</label>
+<select name="Major" id="Major">
+   <option  value="Primary School">Computer Science</option>
+   <option  value="Middel School">Information Systems</option>
+  <option  value="High School">Information Systems</option>
+  </select>
+
+
+ <legend><b> The Teacher communicates the subject matter clearly</b></legend>
+
+ <input id="CB" type="radio" name="subject">Excellent<br>
+ <input id="CB" type="radio" name="subject">Good<br>
+ <input  id="CB" type="radio" name="subject">Poor<br>
+
+  <legend><b> The Teacher is helpful in response to our questions in the class</b></legend>
+
+ <input id="CB" type="radio" name="questions">Excellent<br>
+ <input id="CB" type="radio" name="questions">Good<br>
+ <input  id="CB" type="radio" name="questions">Poor<br>
+
+
+<input id="submit" type="submit" value="Submit" onclick="validation()">
+
+
+
+</form>
+
+</div>
+</body>
+</html>

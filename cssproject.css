@@ -1,0 +1,22 @@
+body{
+	background-image: url(bgp.png);
+	background-repeat: no-repeat;
+}
+
+a:link{
+color: #5734ca;
+}
+table{
+margin-top: 50px;
+padding: 35px;
+margin: 100px;
+}
+td {
+background-color:#eee;
+padding: 35px; 
+font-size:10px;
+  }
+th {
+background-color: #eee;;
+font-size:10px;
+  }
